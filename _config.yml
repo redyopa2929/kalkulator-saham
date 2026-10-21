@@ -1,0 +1,15 @@
+title: "Kalkulator Average Down Saham & Compounding (Python)"
+description: "Kalkulator average down saham, compounding bunga majemuk, batas ARA ARB sesuai fraksi BEI terbaru, dan right issue. Gratis, open source, rumus transparan."
+lang: id
+locale: id_ID
+url: "https://redyopa2929.github.io"
+baseurl: "/kalkulator-saham"
+author: redyopa2929
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - tests
+  - __pycache__
+  - .gitignore

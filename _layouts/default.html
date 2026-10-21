@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "id" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    {% seo title=false %}
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <p class="project-name">{{ site.title }}</p>
+      <p class="project-tagline">{{ site.description }}</p>
+      <a href="{{ site.github.repository_url }}" class="btn">Lihat Kode di GitHub</a>
+      <a href="https://joinbareng.com" class="btn">Karya JoinBareng</a>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-owner">Karya <a href="https://joinbareng.com">JoinBareng</a> · dikelola oleh <a href="https://github.com/redyopa2929">@redyopa2929</a> · <a href="https://redyopa2929.github.io/">Tools gratis lainnya</a></span>
+      </footer>
+    </main>
+  </body>
+</html>
